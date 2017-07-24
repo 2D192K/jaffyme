@@ -1,0 +1,57 @@
+/** FONTS
+--------------------**/
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+
+/** ANIMATIONS
+--------------------**/
+@keyframes blinker {
+	50% {
+		opacity: 0; 
+		} 
+}
+div.blink {
+	color:white;
+	display:inline;
+	animation:blinker 2s step-end infinite;
+}
+
+/**	NATIVE
+--------------------**/
+body  {
+	background-color: #111111;
+	color:#FF69B4;
+	font-family: 'Questrial', sans-serif;
+}
+/** HEADER
+--------------------**/
+header {
+	text-align:center;
+}
+header h1  {
+	color:white;
+	font-family: 'Questrial', sans-serif;
+	font-size:72pt;
+	text-align:left;
+	margin:0px;
+}
+
+/** BODY
+--------------------**/
+#logo {
+	text-decoration: none;
+	color:#FF69B4;
+}
+section {
+	text-align:left;
+}
+	section a {
+		font-size:27px;
+		color:#FF69B4;
+		text-decoration: none;
+	}
+		section a label {
+			border-bottom: 2px solid #FF69B4;
+			padding-bottom:.1rem;
+			line-height:3rem;
+			cursor:pointer;
+		}
