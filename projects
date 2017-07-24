@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>Jaffy &mdash; Home</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>	
+	</head>
+	<body>
+		<header>
+			<h1><a href="index.html" id="logo">Jfy<div class="blink">_</div></a>   Projects</h1>
+		</header>
+		<section class="linklist">
+		<a href="https://github.com/2D192K" ><label>GitHub.</label></a>
+		<a href="https://discord.gg/bRQ5qxA"><label>Discord.</label></a>
+		<a href="https://www.youtube.com/channel/UCrfISy5qhszeHrsAOxs734w"><label>YouTube.</label></a>
+		<a href="/projects"><label>Projects.</label></a><br>
+		</section>
+		<section class="bodytext">
+		I have no projects yet, check again soon!
+		</section>
+	</body>
+</html>
