@@ -41,17 +41,28 @@ header h1  {
 	text-decoration: none;
 	color:#FF69B4;
 }
-section {
+section.linklist {
 	text-align:left;
 }
-	section a {
+	section.linklist a {
 		font-size:27px;
 		color:#FF69B4;
 		text-decoration: none;
 	}
-		section a label {
+		section.linklist a label {
+			margin-right:.5em;
 			border-bottom: 2px solid #FF69B4;
 			padding-bottom:.1rem;
 			line-height:3rem;
 			cursor:pointer;
 		}
+section.bodytext {
+	margin-top:2em;
+	margin-left:1em;
+	margin-right:50em;
+	font-size:20px;
+	color:#FFAAD4;
+}	
+ul li {
+	margin-top:.5em;
+}
