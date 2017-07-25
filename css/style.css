@@ -24,8 +24,8 @@ body  {
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
-	text-align:center;
 	margin-top:0px;
+	text-align:center;
 }
 /** HEADER
 --------------------**/
@@ -56,15 +56,26 @@ section.linklist {
 		section.linklist a label {
 			margin-right:.5vw;
 			margin-left:.5vw;
-			border-bottom: 2px solid #FF69B4;
+			border-bottom: 2px solid #ff3d9e;
 			padding-bottom:.1rem;
 			line-height:3rem;
 			cursor:pointer;
 		}
 section.bodytext {
-	margin-top:1vw;
-	margin-left:1vw;
-	margin-right:1vw;
-	font-size:20px;
+	margin-top:2vw;
+	font-size:40px;
 	color:#FFAAD4;
+	display:inline;
+}	
+section.bodytext div.sub {
+	font-size:30px;
+}
+section.bodytext div.step {
+	display:inline;
+	margin-top:2vw;
+}
+section.bodytext div.dont {
+	margin-top:5vw;
+	font-size:100px;
+	display:none;
 }	
