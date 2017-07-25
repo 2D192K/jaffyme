@@ -21,17 +21,19 @@ body  {
 	background-color: #111111;
 	color:#FF69B4;
 	font-family: 'Questrial', sans-serif;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	text-align:center;
 }
 /** HEADER
 --------------------**/
 header {
-	text-align:center;
 }
 header h1  {
 	color:white;
 	font-family: 'Questrial', sans-serif;
 	font-size:72pt;
-	text-align:left;
 	margin:0px;
 }
 
@@ -40,9 +42,10 @@ header h1  {
 #logo {
 	text-decoration: none;
 	color:#FF69B4;
+	margin-left:2vw;
+	margin-right:2vw;
 }
 section.linklist {
-	text-align:left;
 }
 	section.linklist a {
 		font-size:27px;
@@ -50,19 +53,17 @@ section.linklist {
 		text-decoration: none;
 	}
 		section.linklist a label {
-			margin-right:.5em;
+			margin-right:.5vw;
+			margin-left:.5vw;
 			border-bottom: 2px solid #FF69B4;
 			padding-bottom:.1rem;
 			line-height:3rem;
 			cursor:pointer;
 		}
 section.bodytext {
-	margin-top:2em;
-	margin-left:1em;
-	margin-right:2em;
+	margin-top:1vw;
+	margin-left:1vw;
+	margin-right:1vw;
 	font-size:20px;
 	color:#FFAAD4;
 }	
-ul li {
-	margin-top:.5em;
-}
