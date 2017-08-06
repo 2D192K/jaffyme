@@ -1,3 +1,3 @@
 # 2D192K.github.io
 
-ass haha
+this is my shitsite for projects
