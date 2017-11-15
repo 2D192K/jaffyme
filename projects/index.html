@@ -13,7 +13,29 @@
 		<a href="/projects"><label>Projects</label></a><br>
 		</section>
 		<section class="bodytext">
-		No active projects right now. :(
+			PP Competition<br>
+			
+			1. <input id="i1" autocomplete="off" type="text">
+			
+			<button id="i1confirm" onclick="u1Confirm()">Submit Player 1</button><br>
+			
+			2. <input id="i2" autocomplete="off" type="text">
+			
+			<button class="inputField" id="i2confirm" onclick="u2Confirm()">Submit Player 2</button><br>
+			
+			<button class="inputField" id="ppButt" onclick="printData()" disabled="">Compare!</button><br>
+			
+			<p style="font-size:14px">(Wait a second or two before pressing this!)</p><br><br>
+			
+			<p id="1stplace"></p>
+			
+			<p id="2ndplace"></p>
+			
+			<p id="ppDif"></p>
 		</section>
 	</body>
+	
+	<script src="scripts/jQuery/jquery-3.2.1.js"></script>
+	<script src="scripts/osuProj.js"></script>
+	
 </html>
