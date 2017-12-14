@@ -1,10 +1,10 @@
-	var userID1;		//First ID (Input)
+	var userID1;			//First ID (Input)
 	var userN1;			//First username (Output)
 	var pp1;			//First pp (Output)
-	var userID2;		//2nd "
+	var userID2;			//2nd "
 	var userN2;			//2nd "
 	var pp2;			//2nd "
-	var amountConfirmed = 0;//Measures if both ID have been submitted
+	var amountConfirmed = 0;	//Measures if both ID have been submitted
 	var input1 = document.getElementById("i1");
 	var input2 = document.getElementById("i2");
 		
@@ -16,7 +16,6 @@
 			data: data,
 			success: success
 		});	*/
-		
 
 	/*------------------------------------------------------------*/
 	function u1Confirm() {
@@ -28,6 +27,7 @@
 			userN1 = result1[0]['username']
 			pp1 = result1[0]['pp_raw']
 			}
+			async: false
 		});
 		amountConfirmed++;
 		checkButt();
@@ -42,6 +42,7 @@
 			userN2 = result2[0]['username']
 			pp2 = result2[0]['pp_raw']
 			}
+			async: false
 		});
 		amountConfirmed++;	
 		checkButt();
