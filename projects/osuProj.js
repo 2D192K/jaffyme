@@ -17,6 +17,8 @@
 			success: success
 		});	*/
 
+	$.ajaxSetup(async: false);
+
 	/*------------------------------------------------------------*/
 	function u1Confirm() {
 		userID1 = input1.value;
@@ -27,7 +29,7 @@
 			userN1 = result1[0]['username']
 			pp1 = result1[0]['pp_raw']
 			}
-			async: false
+			
 		});
 		amountConfirmed++;
 		checkButt();
@@ -42,7 +44,7 @@
 			userN2 = result2[0]['username']
 			pp2 = result2[0]['pp_raw']
 			}
-			async: false
+			
 		});
 		amountConfirmed++;	
 		checkButt();
