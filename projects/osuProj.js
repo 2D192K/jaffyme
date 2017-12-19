@@ -17,7 +17,7 @@
 			success: success
 		});	*/
 
-	$.ajaxSetup(async: false);
+	
 
 	/*------------------------------------------------------------*/
 	function u1Confirm() {
