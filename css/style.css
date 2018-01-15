@@ -86,7 +86,11 @@ section.modytext {
 	color:#FFFFFF;
 	text-align:left;
 	margin-left:4vw;
+	margin-top:1vw;
 	display:block;
+}
+ul {
+	list-style-type: none;
 }
 section.bodytext div.sub {
 	font-size:30px;
