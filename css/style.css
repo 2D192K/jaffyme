@@ -67,6 +67,12 @@ section.bodytext {
 	color:#FFAAD4;
 	display:inline;
 }	
+section.modytext {
+	margin-top:2vw;
+	font-size:16px;
+	color:#FFFFFF;
+	display:block;
+}
 section.bodytext div.sub {
 	font-size:30px;
 }
