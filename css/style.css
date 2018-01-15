@@ -40,6 +40,12 @@ header h1  {
 
 /** BODY
 --------------------**/
+a:link {
+	color:#FF69B4;
+}
+a:visited {
+	color:#FF69B4;
+}
 #logo {
 	text-decoration: none;
 	color:#FF69B4;
