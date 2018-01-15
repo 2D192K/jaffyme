@@ -46,6 +46,13 @@ a:link {
 a:visited {
 	color:#FF69B4;
 }
+a:hover {
+	color:#FFFFFF;
+}
+a:active {
+	color:#FFFFFF;
+}
+
 #logo {
 	text-decoration: none;
 	color:#FF69B4;
