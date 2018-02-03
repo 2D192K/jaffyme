@@ -94,10 +94,10 @@
 	function printData() {
 
 		$('#ppDif').text("PP Difference = "+Math.abs((Math.floor(pp1)-(Math.floor(pp2))))); //PARENTHESES
-		if (pp1 > pp2) {
+		if (parseFloat(pp1) > parseFloat(pp2)) {
 			pp1Big();
 		}
-		else if (pp1 < pp2) {
+		else if (parseFloat(pp1) < parseFloat(pp2)) {
 			pp2Big();
 		}	
 		disableButt();
