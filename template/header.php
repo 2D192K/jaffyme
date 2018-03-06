@@ -13,5 +13,4 @@
 			<a href="/projects"><label>Projects</label></a>
 			<a href="/mods"><label>Mods</label></a>
 		</section>
-	</body>
-</html>
+
