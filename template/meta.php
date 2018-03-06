@@ -14,4 +14,4 @@
 <meta name="twitter:title" content="jaffy.me">
 <meta name="twitter:description" content="Computers scare me, I don’t know how they work.">
 <meta name="twitter:image" content="http://jaffy.me/img/metaLogo.jpg"> 
-</html>
+
