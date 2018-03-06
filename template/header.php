@@ -1,4 +1,4 @@
-<html>
+
   <head>
   		<title>Jaffy &mdash; <?php echo $title ?></title>
   		<link rel="stylesheet" type="text/css" href="/css/style.css"/>	
@@ -12,5 +12,5 @@
 			<a href="/contact"><label>Contact</label></a>
 			<a href="/projects"><label>Projects</label></a>
 			<a href="/mods"><label>Mods</label></a>
-		</section>
+	</section>
 
