@@ -17,8 +17,9 @@ div.blink {
 
 /**	NATIVE
 --------------------**/
-h1{
+#logo{
 	text-align:centre;
+	text-decoration:none;
 }
 body  {
 	background-color: #111111;
