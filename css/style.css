@@ -19,88 +19,14 @@ div.blink {
 --------------------**/
 body  {
 	background-color: #111111;
-	color:#FF69B4;
-	font-family: 'Questrial', sans-serif;
+	color:#EEEEEE;
+	font-family: 'Calibri', sans-serif;
 	display:flex;
 	flex-direction:column;
-	justify-content:center;
+	justify-content:centre;
 	margin-top:0px;
-	text-align:center;
-}
-/** HEADER
---------------------**/
-header {
-}
-header h1  {
-	color:white;
-	font-family: 'Questrial', sans-serif;
-	font-size:72pt;
-	margin:0px;
-}
-
-/** BODY
---------------------**/
-a:link {
-	color:#FF69B4;
-}
-a:visited {
-	color:#FF69B4;
-}
-a:hover {
-	color:#FFFFFF;
-}
-a:active {
-	color:#FFFFFF;
-}
-
-#logo {
-	text-decoration: none;
-	color:#FF69B4;
-	margin-left:2vw;
-	margin-right:2vw;
-}
-section.linklist {
-}
-	section.linklist a {
-		font-size:27px;
-		color:#FF69B4;
-		text-decoration: none;
-	}
-		section.linklist a label {
-			margin-right:.5vw;
-			margin-left:.5vw;
-			border-bottom: 2px solid #ff3d9e;
-			padding-bottom:.1rem;
-			line-height:3rem;
-			cursor:pointer;
-		}
-section.bodytext {
-	margin-top:2vw;
-	font-size:40px;
-	color:#FFAAD4;
-	display:inline;
-}	
-section.modytext {
-	margin-top:2vw;
-	font-size:16px;
-	color:#FFFFFF;
-	text-align:left;
-	margin-left:1vw;
-	margin-top:1vw;
-	display:block;
+	text-align:centre;
 }
 ul {
 	list-style-type: none;
 }
-section.bodytext div.sub {
-	font-size:30px;
-}
-section.bodytext div.step {
-	display:inline;
-	margin-top:2vw;
-}
-section.bodytext div.dont {
-	margin-top:5vw;
-	font-size:100px;
-	display:none;
-}	
